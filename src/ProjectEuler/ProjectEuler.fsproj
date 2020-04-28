@@ -6,6 +6,7 @@
   <ItemGroup>
     <Compile Include="Euler1.fs" />
     <Compile Include="Euler2.fs" />
+    <Compile Include="Euler3.fs" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
