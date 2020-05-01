@@ -20,4 +20,7 @@ let tests =
     testCase "Euler5" <| fun _ ->
       let subject = Euler5.solve()
       Expect.equal subject 232792560 "I compute, therefore I am."
+    testCase "Euler6" <| fun _ ->
+      let subject = Euler6.solve()
+      Expect.equal subject 25164150. "I compute, therefore I am."
   ]
